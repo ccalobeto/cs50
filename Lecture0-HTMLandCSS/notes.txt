@@ -1,0 +1,46 @@
+*** specificity ***
+1. inline
+2. id
+3. class
+4. type
+
+*** css selectors ***
+css_selectors.png
+
+*** Responsive Design ***
+Make sure that our web pages look good in our tablets, phones etc
+
+Ways to implement Responsive Design
+- viewport: to display context in mobile devices
+- media queries: @media
+
+- Flexbox: assure multiple elements will display the right way in mobile devices
+- Grids
+
+*** Bootstrap ***
+css library. components made for better styling like alerts
+https://getbootstrap.com/
+
+*** Saas ***
+an extension of css library. It is tool to reduce your redundancy code
+1. compile
+compile ?.scss to ?.css from terminal => sass variables.scss:variables.css
+compile ?.scss to ?.css from vscode => In the botton click in Go live and Watch Sass
+2. change the reference in html file.
+
+***** Exercises *****
+change color in a sublist: descendant.html
+change link color: attribute.html
+change button color: hover.html
+change the color with the width of the screen: responsive.html
+move the elements in the spring with the width of the screen: Flexbox.html
+construct a grid: grid.html
+make an alert using Bootstrap: hello_bootstrap.html
+using Bootstrap with responsive design (move the columns with size of screen): columns1.html
+using variables to set color in unordered list: variables.html
+using variables with sass: variables1.html
+nesting css selectors with sass: nesting.html
+inheritance with sass: inheritance.html
+
+
+
