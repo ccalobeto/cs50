@@ -1,0 +1,5 @@
+** Github Pages **
+Anyone with a github account could publish a web for free
+create a repository ccalobeto.github.io
+do your project, commit and push
+go to the url ccalobeto.github.io (your web site)
