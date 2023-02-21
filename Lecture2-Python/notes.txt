@@ -1,0 +1,34 @@
+var types
+int, float, str, bool, NoneType (None it means anything)
+
+input function to use the keyboard: int(input("Number: "))
+
+use of conditions if, else
+
+tuples
+coordinate = (10.0, 20.0)
+
+data structures
+list 
+tuple
+set 
+dict 
+
+functions and classes
+
+** Techniques **
+decorators
+- taking a function and modify inside another function
+- used in web applications: the decorator checked to run certain functions, if a user 
+has logged in
+
+Lamba functions
+casi igual que decorator pero en una línea ver lambda.py
+exceptions
+
+examples
+len of the set: set.py
+
+
+
+
