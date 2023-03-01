@@ -1,0 +1,81 @@
+Django is used to create dynamic web applications on a web server. It is a web framework
+
+. is the current directory
+
+Installation steps
+1. install pip3 install Django
+2. create a project in the terminal: django-admin startproject PROJECT_NAME
+4. Check the files generated:
+    manage.py
+    setting.py: include the apps of the project. 12:20
+    urls.py: enter the list of allowed urls, to reference application. if you type 
+            .../hello it routes to the hello/urls.py 
+5. run the local server: python manage.py runserver 
+6. go to http://127.0.0.1:8000 to check installation
+
+what happens in real world is one big project has many apps: Google has Google Search, 
+Google Images, Google News and Google Maps
+
+7. Create an app: python manage.py startapp hello
+some file are generated: 
+    admin.py:
+    apps.py:
+    models.py:
+    tests.py:
+    views.py: create a function that displays hello world
+    * urls.py: execute a function inside views.py
+
+8. go to settings.py to include the app.
+use of many html templates
+
+9. using conditions inside the html 45:00
+
+10. build your css file in a separate folder. Remember css files don't change. Then from your html file 
+like index.html call this static file. 50:00
+
+11. create an app called tasks
+a. python manage.py startapp tasks
+b. edit to setting.py
+c. edit to urls.pys to enter into a subfolder of the web 
+d. edit views.py
+    create variable tasks
+e. build the index.html file and include
+    d1. insert a for-loop
+        <ul>
+            {% for task in tasks %}
+                <li> {{ task }}</li>
+            {% endfor %}
+        </ul>
+f. you can asign a page to insert tasks called add.html
+    a. do steps from b to e. 
+    b. just type on the browser to localhost:8000/tasks/add
+
+12. Template inheritance
+index.html and add.html are similar only the body section differ.
+so create a layout.html for common parts an inside body: 
+
+then go to add.html and index.html, erase common parts, keep the difference and extends:
+{% extends "tasks/layout.html"%}
+{% block body % }
+    <difference>
+{% endblock %}
+
+be carefull with namespace collision.
+
+13. Manage security post
+using csrfs tokens
+client side validations & server side validations
+
+14. use of sessions to manage its own data
+
+
+
+
+
+
+
+
+
+
+
+
