@@ -1,4 +1,5 @@
-Django is used to create dynamic web applications on a web server. It is a web framework
+Django is used to create dynamic web applications on a web server. It is a web framework that 
+allow us to generate html and css.
 
 . is the current directory
 
