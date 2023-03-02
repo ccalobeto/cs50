@@ -1,0 +1,47 @@
+*** IN THE TERMINAL *** 
+create a db: touch flights.sql
+db operations:  sqlite3 fligths.sql
+
+*** IN THE PROMPTS ***
+- create the table flights 
+- enter data
+
+format the output: - .mode columns
+                    - .headers yes
+
+*** SQL BASICS ***
+look ups
+joins
+Index
+
+*** SQL Injection ***
+It is an attack
+
+*** user administration ***
+there is an app to insert users into sqlite. it is django administration
+
+*** django project with sqlite ***
+48:00
+migration: move data from sources
+configuration to use django with sqlite
+extract data from datbase and display in a web page
+add fligths, airports, passengers (these are routes) data from web to database
+use best practices in django to manipulate data  
+use templates to enter or admin data in web (done by django). You have to config them
+
+Creation of app users
+setings.py: include the app
+urls.py: include the route
+users/urls.py: define the custome routes for login and logout
+users/views.py: implement functions like login_view and logout_view
+users/templates/users/layout.html: general structure
+users/templates/users/login.html: enter credentials
+insert some users and passwords into sqlite
+users/templates/users/user.html: if your credentials are ok, show your user information
+
+
+
+
+
+
+
