@@ -1,0 +1,20 @@
+1 . django: allow us server-side code
+javascript: allow us client-side code and manipulate the dom of a web page
+2. <script> </script> : anything between script tags is javascript code
+3. JavaScript is good for event-driven programming: click a button, select from a drop-down list, 
+    scrolls down or submit a form. Javascript use event listeners
+4. querySelector: to select the elements 
+    ** variables and functions must not have the same names
+5. use const with variables that never happen to change
+6. dealing with listeners whose dom element has not been reached (DOMContentLoaded) 
+7. move all your javascript code to a file: counter.html
+
+8. create a form and display the name entered in an alert: hello_2.html
+9. iterate over buttons and change color into a text: colors.html
+10. arrow notation instead of "function(a)", "a => "
+                            "function()", "() => "
+11. another way to change color in a text using option selector: colors_1.html 
+12. Events: onclick, onmouserover, onkeydown, onkeyup, onload, onblur
+13. add an item list from submitting with good user experience: tasks.html
+14. local storage, keep a value on your web browser: counter_1.html
+15. currency api: currency.html.  Register and see documentation  
